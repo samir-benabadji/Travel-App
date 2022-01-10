@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:travel_app/theme.dart';
-import 'HomePage.dart';
+//import 'HomePage.dart';
 import 'custom-bottom-nav.dart';
+import 'DetailPage.dart';
 
 class MainPage extends StatelessWidget {
   @override
@@ -11,7 +12,7 @@ class MainPage extends StatelessWidget {
         SafeArea(
             child: PageView(
           children: [
-            HomePage(),
+            DetailPage(),
           ],
         )),
         Align(alignment: Alignment.bottomCenter, child: CustomNavbar())
